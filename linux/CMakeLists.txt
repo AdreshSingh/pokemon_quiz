@@ -9,6 +9,9 @@ set(BINARY_NAME "pokemon_quiz")
 # https://wiki.gnome.org/HowDoI/ChooseApplicationID
 set(APPLICATION_ID "com.example.pokemon_quiz")
 
+# Putting own Application Icon
+set(APPLICATION_ICON "${CMAKE_CURRENT_SOURCE_DIR}/resources/app_icon.png")
+
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.
 cmake_policy(SET CMP0063 NEW)
